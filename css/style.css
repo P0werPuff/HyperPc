@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;  
+}
+body{
+    background-color: white;
+}
+.social a{
+    float: right;
+    color: white;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+}
+.main-content{
+    background-color: black;
+    background-image: url(img/hyperpc.jpg);
+    height: 600px;
+
+    
+}
+.right, .left{
+    width: 50%;
+    color: white;
+    font-size: 18px;
+    padding: 15rem 5rem 5rem 5rem;
+}
+.right h1{
+    color: #7FFF00;
+    position: relative;
+    animation-name: GetFromLeft;
+    animation-duration: 7s;
+
+}
+.right p{
+    position: relative;
+    animation-name: GetFromLeft;
+    animation-duration: 7s;
+
+}
+@keyframes GetFromLeft {
+    0%   {left: -60%; opacity: 0;}
+    50%  {left: 5%; opacity: 0.5;}
+    100% {left: 0%; opacity: 1;}
+}
+
+.right a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border: 1px solid#7FFF00;
+    padding: 0.5rem;
+    animation-name: GetFromDown;
+    animation-duration: 7s;
+    
+}
+
+@keyframes GetFromDown {
+    0%   {top: 8rem; opacity: 0;}
+    50%   { opacity: 0.1;}
+    100% {top: 0rem; opacity: 1;}
+}
+
+.right a:hover{
+    transition: 0.5s;
+    background-color:#7FFF00;
+}
+
+/*----------------
+--Second-content--
+------------------*/
+.second-content{
+    height: 30rem;
+    color: white;
+
+}
+.second-container{
+    max-width: 75%;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(68, 68, 68);
+}
+.info{
+    padding: 5rem 5rem 5rem 5rem;
+    width: 65%;
+}
+.info h1, p{
+    color:#999;
+}
+.info-photo{
+    margin: 0rem;
+    width: 200px;
+    padding: 5rem 0rem 0rem 0rem ;
+}
+.info, .info-photo{
+    display: inline-block;
+}
+
+/*----------------
+--Second-content--
+------------------*/
+.tree-container{
+    max-width: 75%;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(68, 68, 68);
+}
+.tree .info{
+    padding: 5rem 5rem 5rem 5rem;
+    width: 65%;
+}
+.tree .info p{
+    color:#999;
+}
+.second-container .info h1{
+    color:#0184e7;
+}
+.tree .info, h2{
+    color: white;
+}
+.tree .info-photo{
+    margin: 0rem;
+    width: 200px;
+    padding: 5rem 0rem 0rem 0rem ;
+}
+.tree .info, .info-photo{
+    display: inline-block;
+}
+
+/*--------------------
+--Video-card-content--
+----------------------*/
+.videocard{
+    height: 35rem;
+    width: 120rem;
+    background-image: url(img/VideoCard.jpg);
+}
+.video-card-info {
+    padding: 5rem 5rem 5rem 5rem;
+    margin-left: 13rem;
+    width: 40%;
+}
+.video-card-info h1{
+    color: #76b900;
+    animation-name: InfoVideo;
+    animation-duration: 15s;
+}
+.video-card-info p{
+    color:white;
+    animation-name: InfoVideo;
+    animation-duration: 19s;
+}
+.video-card-info h2{
+    color: white;
+    animation-name: InfoVideo;
+    animation-duration: 17s;
+}
+
+
+@keyframes InfoVideo {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
